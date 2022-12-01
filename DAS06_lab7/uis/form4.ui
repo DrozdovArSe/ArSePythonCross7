@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>446</width>
+    <height>319</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>446</width>
+    <height>319</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>446</width>
+    <height>319</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_back">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>260</y>
+      <width>120</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Calibri&quot;;
+background-color: rgb(255, 0, 0);
+color: rgb(0,0,0);</string>
+    </property>
+    <property name="text">
+     <string>Назад</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_next">
+    <property name="geometry">
+     <rect>
+      <x>231</x>
+      <y>260</y>
+      <width>120</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Calibri&quot;;
+background-color: rgb(255, 0, 0);
+color: rgb(0,0,0);</string>
+    </property>
+    <property name="text">
+     <string>Вперёд</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_task">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>331</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Ваш любимый предмет в школе?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_selected">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>225</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Выбрано:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>331</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Математика</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Языки</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Физкультура</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Информатика</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
